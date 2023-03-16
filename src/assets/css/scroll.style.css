@@ -1,0 +1,12 @@
+.comp {
+    transform: translateX(400%);
+    transition: transform 0.4s ease;
+}
+
+.comp:nth-of-type(even) {
+    transform: translateX(-400%);
+}
+
+.comp.show {
+    transform: translateX(0);
+}
